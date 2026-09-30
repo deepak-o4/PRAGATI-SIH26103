@@ -1,0 +1,241 @@
+project_code,milestone_name,planned_start,planned_end,actual_start,actual_end,completion_percentage,dependency,weight
+DEMO-0001,Land / site handover,2022-01-01,2023-03-01,2022-01-01,2023-08-01,100,,1
+DEMO-0001,Design approval,2023-03-01,2024-06-01,2023-03-01,,6.8,Land / site handover,1
+DEMO-0001,Main construction,2024-06-01,2025-09-01,,,0,Design approval,1
+DEMO-0001,Testing & commissioning,2025-09-01,2026-12-01,,,0,Main construction,1
+DEMO-0002,Land / site handover,2021-10-01,2024-01-01,2021-10-01,,21.2,,1
+DEMO-0002,Design approval,2024-01-01,2026-04-01,,,0,Land / site handover,1
+DEMO-0002,Main construction,2026-04-01,2028-07-01,,,0,Design approval,1
+DEMO-0002,Testing & commissioning,2028-07-01,2030-10-01,,,0,Main construction,1
+DEMO-0003,Land / site handover,2021-09-01,2023-05-01,2021-09-01,,68.4,,1
+DEMO-0003,Design approval,2023-05-01,2025-01-01,,,0,Land / site handover,1
+DEMO-0003,Main construction,2025-01-01,2026-09-01,,,0,Design approval,1
+DEMO-0003,Testing & commissioning,2026-09-01,2028-06-01,,,0,Main construction,1
+DEMO-0004,Land / site handover,2022-03-01,2023-10-01,2022-03-01,,68.4,,1
+DEMO-0004,Design approval,2023-10-01,2025-06-01,,,0,Land / site handover,1
+DEMO-0004,Main construction,2025-06-01,2027-02-01,,,0,Design approval,1
+DEMO-0004,Testing & commissioning,2027-02-01,2028-10-01,,,0,Main construction,1
+DEMO-0005,Land / site handover,2024-06-01,2025-12-01,2024-06-01,2025-12-01,100,,1
+DEMO-0005,Design approval,2025-12-01,2027-07-01,2025-12-01,,3.2,Land / site handover,1
+DEMO-0005,Main construction,2027-07-01,2029-02-01,,,0,Design approval,1
+DEMO-0005,Testing & commissioning,2029-02-01,2030-09-01,,,0,Main construction,1
+DEMO-0006,Land / site handover,2024-05-01,2025-10-01,2024-05-01,2025-11-01,100,,1
+DEMO-0006,Design approval,2025-10-01,2027-04-01,2025-10-01,,5.2,Land / site handover,1
+DEMO-0006,Main construction,2027-04-01,2028-10-01,,,0,Design approval,1
+DEMO-0006,Testing & commissioning,2028-10-01,2030-04-01,,,0,Main construction,1
+DEMO-0007,Land / site handover,2022-12-01,2024-08-01,2022-12-01,,81.2,,1
+DEMO-0007,Design approval,2024-08-01,2026-04-01,,,0,Land / site handover,1
+DEMO-0007,Main construction,2026-04-01,2027-12-01,,,0,Design approval,1
+DEMO-0007,Testing & commissioning,2027-12-01,2029-08-01,,,0,Main construction,1
+DEMO-0008,Land / site handover,2022-06-01,2023-12-01,2022-06-01,2024-01-01,100,,1
+DEMO-0008,Design approval,2023-12-01,2025-07-01,2023-12-01,,4.4,Land / site handover,1
+DEMO-0008,Main construction,2025-07-01,2027-02-01,,,0,Design approval,1
+DEMO-0008,Testing & commissioning,2027-02-01,2028-09-01,,,0,Main construction,1
+DEMO-0009,Land / site handover,2023-03-01,2024-09-01,2023-03-01,2024-09-01,100,,1
+DEMO-0009,Design approval,2024-09-01,2026-03-01,2024-09-01,,8.0,Land / site handover,1
+DEMO-0009,Main construction,2026-03-01,2027-09-01,,,0,Design approval,1
+DEMO-0009,Testing & commissioning,2027-09-01,2029-04-01,,,0,Main construction,1
+DEMO-0010,Land / site handover,2022-10-01,2023-08-01,2022-10-01,2023-09-01,100,,1
+DEMO-0010,Design approval,2023-08-01,2024-07-01,2023-08-01,,70.4,Land / site handover,1
+DEMO-0010,Main construction,2024-07-01,2025-06-01,,,0,Design approval,1
+DEMO-0010,Testing & commissioning,2025-06-01,2026-05-01,,,0,Main construction,1
+DEMO-0011,Land / site handover,2021-11-01,2023-12-01,2021-11-01,,58.4,,1
+DEMO-0011,Design approval,2023-12-01,2026-01-01,,,0,Land / site handover,1
+DEMO-0011,Main construction,2026-01-01,2028-02-01,,,0,Design approval,1
+DEMO-0011,Testing & commissioning,2028-02-01,2030-04-01,,,0,Main construction,1
+DEMO-0012,Land / site handover,2024-09-01,2026-03-01,2024-09-01,2026-04-01,100,,1
+DEMO-0012,Design approval,2026-03-01,2027-09-01,2026-03-01,,1.2,Land / site handover,1
+DEMO-0012,Main construction,2027-09-01,2029-03-01,,,0,Design approval,1
+DEMO-0012,Testing & commissioning,2029-03-01,2030-10-01,,,0,Main construction,1
+DEMO-0013,Land / site handover,2022-11-01,2024-05-01,2022-11-01,,71.6,,1
+DEMO-0013,Design approval,2024-05-01,2025-11-01,,,0,Land / site handover,1
+DEMO-0013,Main construction,2025-11-01,2027-05-01,,,0,Design approval,1
+DEMO-0013,Testing & commissioning,2027-05-01,2028-12-01,,,0,Main construction,1
+DEMO-0014,Land / site handover,2021-11-01,2024-03-01,2021-11-01,,33.6,,1
+DEMO-0014,Design approval,2024-03-01,2026-07-01,,,0,Land / site handover,1
+DEMO-0014,Main construction,2026-07-01,2028-11-01,,,0,Design approval,1
+DEMO-0014,Testing & commissioning,2028-11-01,2031-03-01,,,0,Main construction,1
+DEMO-0015,Land / site handover,2023-10-01,2025-05-01,2023-10-01,,81.2,,1
+DEMO-0015,Design approval,2025-05-01,2027-01-01,,,0,Land / site handover,1
+DEMO-0015,Main construction,2027-01-01,2028-09-01,,,0,Design approval,1
+DEMO-0015,Testing & commissioning,2028-09-01,2030-05-01,,,0,Main construction,1
+DEMO-0016,Land / site handover,2023-01-01,2023-11-01,2023-01-01,2023-12-01,100,,1
+DEMO-0016,Design approval,2023-11-01,2024-10-01,2023-11-01,,76.4,Land / site handover,1
+DEMO-0016,Main construction,2024-10-01,2025-09-01,,,0,Design approval,1
+DEMO-0016,Testing & commissioning,2025-09-01,2026-08-01,,,0,Main construction,1
+DEMO-0017,Land / site handover,2024-04-01,2025-06-01,2024-04-01,,98.4,,1
+DEMO-0017,Design approval,2025-06-01,2026-08-01,,,0,Land / site handover,1
+DEMO-0017,Main construction,2026-08-01,2027-10-01,,,0,Design approval,1
+DEMO-0017,Testing & commissioning,2027-10-01,2028-12-01,,,0,Main construction,1
+DEMO-0018,Land / site handover,2024-09-01,2026-05-01,2024-09-01,,76.0,,1
+DEMO-0018,Design approval,2026-05-01,2028-02-01,,,0,Land / site handover,1
+DEMO-0018,Main construction,2028-02-01,2029-11-01,,,0,Design approval,1
+DEMO-0018,Testing & commissioning,2029-11-01,2031-08-01,,,0,Main construction,1
+DEMO-0019,Land / site handover,2023-05-01,2024-06-01,2023-05-01,2024-07-01,100,,1
+DEMO-0019,Design approval,2024-06-01,2025-07-01,2024-06-01,,45.6,Land / site handover,1
+DEMO-0019,Main construction,2025-07-01,2026-08-01,,,0,Design approval,1
+DEMO-0019,Testing & commissioning,2026-08-01,2027-09-01,,,0,Main construction,1
+DEMO-0020,Land / site handover,2023-12-01,2025-01-01,2023-12-01,2025-04-01,100,,1
+DEMO-0020,Design approval,2025-01-01,2026-02-01,2025-01-01,,16.0,Land / site handover,1
+DEMO-0020,Main construction,2026-02-01,2027-03-01,,,0,Design approval,1
+DEMO-0020,Testing & commissioning,2027-03-01,2028-05-01,,,0,Main construction,1
+DEMO-0021,Land / site handover,2022-11-01,2023-10-01,2022-11-01,2023-11-01,100,,1
+DEMO-0021,Design approval,2023-10-01,2024-09-01,2023-10-01,,81.6,Land / site handover,1
+DEMO-0021,Main construction,2024-09-01,2025-08-01,,,0,Design approval,1
+DEMO-0021,Testing & commissioning,2025-08-01,2026-07-01,,,0,Main construction,1
+DEMO-0022,Land / site handover,2023-07-01,2024-07-01,2023-07-01,2025-01-01,100,,1
+DEMO-0022,Design approval,2024-07-01,2025-07-01,2024-07-01,,26.0,Land / site handover,1
+DEMO-0022,Main construction,2025-07-01,2026-07-01,,,0,Design approval,1
+DEMO-0022,Testing & commissioning,2026-07-01,2027-08-01,,,0,Main construction,1
+DEMO-0023,Land / site handover,2023-09-01,2024-12-01,2023-09-01,,94.0,,1
+DEMO-0023,Design approval,2024-12-01,2026-03-01,,,0,Land / site handover,1
+DEMO-0023,Main construction,2026-03-01,2027-06-01,,,0,Design approval,1
+DEMO-0023,Testing & commissioning,2027-06-01,2028-10-01,,,0,Main construction,1
+DEMO-0024,Land / site handover,2022-08-01,2023-11-01,2022-08-01,2023-12-01,100,,1
+DEMO-0024,Design approval,2023-11-01,2025-02-01,2023-11-01,,31.6,Land / site handover,1
+DEMO-0024,Main construction,2025-02-01,2026-05-01,,,0,Design approval,1
+DEMO-0024,Testing & commissioning,2026-05-01,2027-08-01,,,0,Main construction,1
+DEMO-0025,Land / site handover,2023-06-01,2024-08-01,2023-06-01,,96.0,,1
+DEMO-0025,Design approval,2024-08-01,2025-11-01,,,0,Land / site handover,1
+DEMO-0025,Main construction,2025-11-01,2027-01-01,,,0,Design approval,1
+DEMO-0025,Testing & commissioning,2027-01-01,2028-04-01,,,0,Main construction,1
+DEMO-0026,Land / site handover,2023-04-01,2024-08-01,2023-04-01,,92.0,,1
+DEMO-0026,Design approval,2024-08-01,2026-01-01,,,0,Land / site handover,1
+DEMO-0026,Main construction,2026-01-01,2027-06-01,,,0,Design approval,1
+DEMO-0026,Testing & commissioning,2027-06-01,2028-11-01,,,0,Main construction,1
+DEMO-0027,Land / site handover,2022-06-01,2024-10-01,2022-06-01,,35.6,,1
+DEMO-0027,Design approval,2024-10-01,2027-03-01,,,0,Land / site handover,1
+DEMO-0027,Main construction,2027-03-01,2029-07-01,,,0,Design approval,1
+DEMO-0027,Testing & commissioning,2029-07-01,2031-12-01,,,0,Main construction,1
+DEMO-0028,Land / site handover,2023-03-01,2025-02-01,2023-03-01,,30.4,,1
+DEMO-0028,Design approval,2025-02-01,2027-01-01,,,0,Land / site handover,1
+DEMO-0028,Main construction,2027-01-01,2028-12-01,,,0,Design approval,1
+DEMO-0028,Testing & commissioning,2028-12-01,2030-11-01,,,0,Main construction,1
+DEMO-0029,Land / site handover,2022-01-01,2023-12-01,2022-01-01,,74.0,,1
+DEMO-0029,Design approval,2023-12-01,2025-11-01,,,0,Land / site handover,1
+DEMO-0029,Main construction,2025-11-01,2027-10-01,,,0,Design approval,1
+DEMO-0029,Testing & commissioning,2027-10-01,2029-09-01,,,0,Main construction,1
+DEMO-0030,Land / site handover,2022-06-01,2024-03-01,2022-06-01,,69.6,,1
+DEMO-0030,Design approval,2024-03-01,2025-12-01,,,0,Land / site handover,1
+DEMO-0030,Main construction,2025-12-01,2027-09-01,,,0,Design approval,1
+DEMO-0030,Testing & commissioning,2027-09-01,2029-07-01,,,0,Main construction,1
+DEMO-0031,Land / site handover,2023-07-01,2025-07-01,2023-07-01,,29.2,,1
+DEMO-0031,Design approval,2025-07-01,2027-08-01,,,0,Land / site handover,1
+DEMO-0031,Main construction,2027-08-01,2029-08-01,,,0,Design approval,1
+DEMO-0031,Testing & commissioning,2029-08-01,2031-09-01,,,0,Main construction,1
+DEMO-0032,Land / site handover,2023-09-01,2025-11-01,2023-09-01,,28.0,,1
+DEMO-0032,Design approval,2025-11-01,2028-01-01,,,0,Land / site handover,1
+DEMO-0032,Main construction,2028-01-01,2030-03-01,,,0,Design approval,1
+DEMO-0032,Testing & commissioning,2030-03-01,2032-05-01,,,0,Main construction,1
+DEMO-0033,Land / site handover,2023-12-01,2026-05-01,2023-12-01,,30.0,,1
+DEMO-0033,Design approval,2026-05-01,2028-11-01,,,0,Land / site handover,1
+DEMO-0033,Main construction,2028-11-01,2031-05-01,,,0,Design approval,1
+DEMO-0033,Testing & commissioning,2031-05-01,2033-11-01,,,0,Main construction,1
+DEMO-0034,Land / site handover,2023-05-01,2025-01-01,2023-05-01,,63.2,,1
+DEMO-0034,Design approval,2025-01-01,2026-10-01,,,0,Land / site handover,1
+DEMO-0034,Main construction,2026-10-01,2028-07-01,,,0,Design approval,1
+DEMO-0034,Testing & commissioning,2028-07-01,2030-04-01,,,0,Main construction,1
+DEMO-0035,Land / site handover,2024-04-01,2026-01-01,2024-04-01,,58.0,,1
+DEMO-0035,Design approval,2026-01-01,2027-11-01,,,0,Land / site handover,1
+DEMO-0035,Main construction,2027-11-01,2029-09-01,,,0,Design approval,1
+DEMO-0035,Testing & commissioning,2029-09-01,2031-07-01,,,0,Main construction,1
+DEMO-0036,Land / site handover,2022-10-01,2023-09-01,2022-10-01,2023-10-01,100,,1
+DEMO-0036,Design approval,2023-09-01,2024-09-01,2023-09-01,,17.2,Land / site handover,1
+DEMO-0036,Main construction,2024-09-01,2025-09-01,,,0,Design approval,1
+DEMO-0036,Testing & commissioning,2025-09-01,2026-09-01,,,0,Main construction,1
+DEMO-0037,Land / site handover,2022-10-01,2024-03-01,2022-10-01,,85.6,,1
+DEMO-0037,Design approval,2024-03-01,2025-09-01,,,0,Land / site handover,1
+DEMO-0037,Main construction,2025-09-01,2027-03-01,,,0,Design approval,1
+DEMO-0037,Testing & commissioning,2027-03-01,2028-09-01,,,0,Main construction,1
+DEMO-0038,Land / site handover,2022-09-01,2023-07-01,2022-09-01,2023-08-01,100,,1
+DEMO-0038,Design approval,2023-07-01,2024-06-01,2023-07-01,,62.0,Land / site handover,1
+DEMO-0038,Main construction,2024-06-01,2025-04-01,,,0,Design approval,1
+DEMO-0038,Testing & commissioning,2025-04-01,2026-03-01,,,0,Main construction,1
+DEMO-0039,Land / site handover,2023-09-01,2025-01-01,2023-09-01,2025-01-01,100,,1
+DEMO-0039,Design approval,2025-01-01,2026-06-01,2025-01-01,,11.6,Land / site handover,1
+DEMO-0039,Main construction,2026-06-01,2027-11-01,,,0,Design approval,1
+DEMO-0039,Testing & commissioning,2027-11-01,2029-04-01,,,0,Main construction,1
+DEMO-0040,Land / site handover,2024-01-01,2025-07-01,2024-01-01,,80.8,,1
+DEMO-0040,Design approval,2025-07-01,2027-02-01,,,0,Land / site handover,1
+DEMO-0040,Main construction,2027-02-01,2028-09-01,,,0,Design approval,1
+DEMO-0040,Testing & commissioning,2028-09-01,2030-04-01,,,0,Main construction,1
+DEMO-0041,Land / site handover,2022-12-01,2025-05-01,2022-12-01,,28.4,,1
+DEMO-0041,Design approval,2025-05-01,2027-10-01,,,0,Land / site handover,1
+DEMO-0041,Main construction,2027-10-01,2030-03-01,,,0,Design approval,1
+DEMO-0041,Testing & commissioning,2030-03-01,2032-08-01,,,0,Main construction,1
+DEMO-0042,Land / site handover,2023-11-01,2025-06-01,2023-11-01,,94.0,,1
+DEMO-0042,Design approval,2025-06-01,2027-01-01,,,0,Land / site handover,1
+DEMO-0042,Main construction,2027-01-01,2028-08-01,,,0,Design approval,1
+DEMO-0042,Testing & commissioning,2028-08-01,2030-03-01,,,0,Main construction,1
+DEMO-0043,Land / site handover,2024-06-01,2026-04-01,2024-06-01,,30.4,,1
+DEMO-0043,Design approval,2026-04-01,2028-02-01,,,0,Land / site handover,1
+DEMO-0043,Main construction,2028-02-01,2029-12-01,,,0,Design approval,1
+DEMO-0043,Testing & commissioning,2029-12-01,2031-10-01,,,0,Main construction,1
+DEMO-0044,Land / site handover,2022-01-01,2023-01-01,2022-01-01,2023-01-01,100,,1
+DEMO-0044,Design approval,2023-01-01,2024-01-01,2023-01-01,,40.8,Land / site handover,1
+DEMO-0044,Main construction,2024-01-01,2025-01-01,,,0,Design approval,1
+DEMO-0044,Testing & commissioning,2025-01-01,2026-02-01,,,0,Main construction,1
+DEMO-0045,Land / site handover,2022-02-01,2023-01-01,2022-02-01,2023-02-01,100,,1
+DEMO-0045,Design approval,2023-01-01,2023-12-01,2023-01-01,,97.2,Land / site handover,1
+DEMO-0045,Main construction,2023-12-01,2024-11-01,,,0,Design approval,1
+DEMO-0045,Testing & commissioning,2024-11-01,2025-11-01,,,0,Main construction,1
+DEMO-0046,Land / site handover,2023-11-01,2025-10-01,2023-11-01,,82.4,,1
+DEMO-0046,Design approval,2025-10-01,2027-10-01,,,0,Land / site handover,1
+DEMO-0046,Main construction,2027-10-01,2029-09-01,,,0,Design approval,1
+DEMO-0046,Testing & commissioning,2029-09-01,2031-09-01,,,0,Main construction,1
+DEMO-0047,Land / site handover,2021-10-01,2023-06-01,2021-10-01,,59.2,,1
+DEMO-0047,Design approval,2023-06-01,2025-03-01,,,0,Land / site handover,1
+DEMO-0047,Main construction,2025-03-01,2026-11-01,,,0,Design approval,1
+DEMO-0047,Testing & commissioning,2026-11-01,2028-08-01,,,0,Main construction,1
+DEMO-0048,Land / site handover,2022-11-01,2023-11-01,2022-11-01,2024-03-01,100,,1
+DEMO-0048,Design approval,2023-11-01,2024-11-01,2023-11-01,,29.2,Land / site handover,1
+DEMO-0048,Main construction,2024-11-01,2025-11-01,,,0,Design approval,1
+DEMO-0048,Testing & commissioning,2025-11-01,2026-12-01,,,0,Main construction,1
+DEMO-0049,Land / site handover,2022-02-01,2023-02-01,2022-02-01,2023-08-01,100,,1
+DEMO-0049,Design approval,2023-02-01,2024-03-01,2023-02-01,,17.6,Land / site handover,1
+DEMO-0049,Main construction,2024-03-01,2025-04-01,,,0,Design approval,1
+DEMO-0049,Testing & commissioning,2025-04-01,2026-05-01,,,0,Main construction,1
+DEMO-0050,Land / site handover,2022-02-01,2023-09-01,2022-02-01,,92.8,,1
+DEMO-0050,Design approval,2023-09-01,2025-05-01,,,0,Land / site handover,1
+DEMO-0050,Main construction,2025-05-01,2027-01-01,,,0,Design approval,1
+DEMO-0050,Testing & commissioning,2027-01-01,2028-09-01,,,0,Main construction,1
+DEMO-0051,Land / site handover,2024-03-01,2025-05-01,2024-03-01,2025-06-01,100,,1
+DEMO-0051,Design approval,2025-05-01,2026-07-01,2025-05-01,,24.0,Land / site handover,1
+DEMO-0051,Main construction,2026-07-01,2027-09-01,,,0,Design approval,1
+DEMO-0051,Testing & commissioning,2027-09-01,2028-12-01,,,0,Main construction,1
+DEMO-0052,Land / site handover,2024-08-01,2027-02-01,2024-08-01,,17.2,,1
+DEMO-0052,Design approval,2027-02-01,2029-09-01,,,0,Land / site handover,1
+DEMO-0052,Main construction,2029-09-01,2032-04-01,,,0,Design approval,1
+DEMO-0052,Testing & commissioning,2032-04-01,2034-11-01,,,0,Main construction,1
+DEMO-0053,Land / site handover,2023-07-01,2025-09-01,2023-07-01,,58.8,,1
+DEMO-0053,Design approval,2025-09-01,2027-12-01,,,0,Land / site handover,1
+DEMO-0053,Main construction,2027-12-01,2030-02-01,,,0,Design approval,1
+DEMO-0053,Testing & commissioning,2030-02-01,2032-05-01,,,0,Main construction,1
+DEMO-0054,Land / site handover,2022-01-01,2023-08-01,2022-01-01,2023-08-01,100,,1
+DEMO-0054,Design approval,2023-08-01,2025-04-01,,,0,Land / site handover,1
+DEMO-0054,Main construction,2025-04-01,2026-11-01,,,0,Design approval,1
+DEMO-0054,Testing & commissioning,2026-11-01,2028-07-01,,,0,Main construction,1
+DEMO-0055,Land / site handover,2022-06-01,2023-03-01,2022-06-01,2023-03-01,100,,1
+DEMO-0055,Design approval,2023-03-01,2024-01-01,2023-03-01,2024-01-01,100,Land / site handover,1
+DEMO-0055,Main construction,2024-01-01,2024-11-01,2024-01-01,,1.2,Design approval,1
+DEMO-0055,Testing & commissioning,2024-11-01,2025-09-01,,,0,Main construction,1
+DEMO-0056,Land / site handover,2021-09-01,2023-07-01,2021-09-01,,25.6,,1
+DEMO-0056,Design approval,2023-07-01,2025-05-01,,,0,Land / site handover,1
+DEMO-0056,Main construction,2025-05-01,2027-03-01,,,0,Design approval,1
+DEMO-0056,Testing & commissioning,2027-03-01,2029-01-01,,,0,Main construction,1
+DEMO-0057,Land / site handover,2024-05-01,2025-04-01,2024-05-01,2025-05-01,100,,1
+DEMO-0057,Design approval,2025-04-01,2026-04-01,2025-04-01,,64.4,Land / site handover,1
+DEMO-0057,Main construction,2026-04-01,2027-04-01,,,0,Design approval,1
+DEMO-0057,Testing & commissioning,2027-04-01,2028-04-01,,,0,Main construction,1
+DEMO-0058,Land / site handover,2023-09-01,2024-10-01,2023-09-01,2024-10-01,100,,1
+DEMO-0058,Design approval,2024-10-01,2025-11-01,2024-10-01,,49.2,Land / site handover,1
+DEMO-0058,Main construction,2025-11-01,2026-12-01,,,0,Design approval,1
+DEMO-0058,Testing & commissioning,2026-12-01,2028-02-01,,,0,Main construction,1
+DEMO-0059,Land / site handover,2021-11-01,2023-01-01,2021-11-01,2023-02-01,100,,1
+DEMO-0059,Design approval,2023-01-01,2024-03-01,2023-01-01,,35.6,Land / site handover,1
+DEMO-0059,Main construction,2024-03-01,2025-05-01,,,0,Design approval,1
+DEMO-0059,Testing & commissioning,2025-05-01,2026-08-01,,,0,Main construction,1
+DEMO-0060,Land / site handover,2024-02-01,2024-12-01,2024-02-01,2024-12-01,100,,1
+DEMO-0060,Design approval,2024-12-01,2025-10-01,2024-12-01,,66.4,Land / site handover,1
+DEMO-0060,Main construction,2025-10-01,2026-08-01,,,0,Design approval,1
+DEMO-0060,Testing & commissioning,2026-08-01,2027-07-01,,,0,Main construction,1

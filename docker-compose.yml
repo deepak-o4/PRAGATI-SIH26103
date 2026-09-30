@@ -1,0 +1,41 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: pragati
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?set POSTGRES_PASSWORD in .env}
+      POSTGRES_DB: pragati
+    volumes: [pgdata:/var/lib/postgresql/data]
+    healthcheck: {test: ["CMD-SHELL", "pg_isready -U pragati"], interval: 5s, retries: 10}
+  redis:
+    image: redis:7-alpine
+  backend:
+    build: {context: ., dockerfile: docker/Dockerfile.backend}
+    env_file: .env
+    environment:
+      DATABASE_URL: postgresql+asyncpg://pragati:${POSTGRES_PASSWORD}@postgres:5432/pragati
+      REDIS_URL: redis://redis:6379/0
+    depends_on: {postgres: {condition: service_healthy}, redis: {condition: service_started}}
+    volumes: [uploads:/app/data/uploads, models:/app/models]
+    ports: ["8000:8000"]
+  worker:
+    build: {context: ., dockerfile: docker/Dockerfile.backend}
+    command: celery -A app.tasks.celery_app worker --loglevel=info
+    env_file: .env
+    environment:
+      DATABASE_URL: postgresql+asyncpg://pragati:${POSTGRES_PASSWORD}@postgres:5432/pragati
+      REDIS_URL: redis://redis:6379/0
+    depends_on: [backend, redis]
+  beat:
+    build: {context: ., dockerfile: docker/Dockerfile.backend}
+    command: celery -A app.tasks.celery_app beat --loglevel=info
+    env_file: .env
+    environment:
+      DATABASE_URL: postgresql+asyncpg://pragati:${POSTGRES_PASSWORD}@postgres:5432/pragati
+      REDIS_URL: redis://redis:6379/0
+    depends_on: [backend, redis]
+  frontend:
+    build: {context: ., dockerfile: docker/Dockerfile.frontend}
+    depends_on: [backend]
+    ports: ["8080:80"]
+volumes: {pgdata: {}, uploads: {}, models: {}}

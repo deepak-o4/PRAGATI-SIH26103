@@ -1,0 +1,12 @@
+.env
+.env.*
+!.env.example
+*.db
+__pycache__/
+.pytest_cache/
+*.py[cod]
+node_modules/
+frontend/dist/
+data/uploads/
+data/reports/
+models/*.joblib

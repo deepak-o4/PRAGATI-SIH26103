@@ -1,0 +1,96 @@
+project_code,issue_type,description,severity,reported_date,expected_resolution_date,actual_resolution_date,owner,status,impact
+DEMO-0001,PROCUREMENT,Synthetic procurement bottleneck,HIGH,2026-06-01,2026-10-01,2026-09-01,Implementing agency,RESOLVED,Schedule impact
+DEMO-0001,LABOUR,Synthetic labour bottleneck,HIGH,2026-02-01,2026-10-01,,Implementing agency,OPEN,Schedule impact
+DEMO-0002,LAND,Synthetic land bottleneck,MEDIUM,2026-03-01,2026-05-01,,Implementing agency,OPEN,Schedule impact
+DEMO-0002,MATERIAL,Synthetic material bottleneck,MEDIUM,2026-08-01,2027-02-01,,Implementing agency,OPEN,Schedule impact
+DEMO-0002,LAND,Synthetic land bottleneck,CRITICAL,2026-03-01,2026-11-01,2026-06-01,Implementing agency,RESOLVED,Schedule impact
+DEMO-0003,WEATHER,Synthetic weather bottleneck,HIGH,2026-06-01,2027-01-01,2026-09-01,Implementing agency,RESOLVED,Schedule impact
+DEMO-0003,MATERIAL,Synthetic material bottleneck,MEDIUM,2026-03-01,2026-06-01,,Implementing agency,OPEN,Schedule impact
+DEMO-0003,UTILITY_SHIFTING,Synthetic utility shifting bottleneck,MEDIUM,2026-02-01,2026-07-01,,Implementing agency,OPEN,Schedule impact
+DEMO-0004,LAND,Synthetic land bottleneck,HIGH,2026-06-01,2026-09-01,,Implementing agency,OPEN,Schedule impact
+DEMO-0004,CONTRACTOR,Synthetic contractor bottleneck,MEDIUM,2026-01-01,2026-06-01,,Implementing agency,OPEN,Schedule impact
+DEMO-0004,UTILITY_SHIFTING,Synthetic utility shifting bottleneck,MEDIUM,2025-11-01,2026-04-01,,Implementing agency,OPEN,Schedule impact
+DEMO-0005,LAND,Synthetic land bottleneck,MEDIUM,2026-05-01,2026-10-01,2026-08-01,Implementing agency,RESOLVED,Schedule impact
+DEMO-0007,MATERIAL,Synthetic material bottleneck,MEDIUM,2026-04-01,2026-10-01,,Implementing agency,OPEN,Schedule impact
+DEMO-0008,APPROVAL,Synthetic approval bottleneck,MEDIUM,2026-03-01,2026-09-01,,Implementing agency,OPEN,Schedule impact
+DEMO-0010,UTILITY_SHIFTING,Synthetic utility shifting bottleneck,MEDIUM,2026-06-01,2027-02-01,,Implementing agency,OPEN,Schedule impact
+DEMO-0011,WEATHER,Synthetic weather bottleneck,MEDIUM,2025-09-01,2026-02-01,2025-12-01,Implementing agency,RESOLVED,Schedule impact
+DEMO-0012,CONTRACTOR,Synthetic contractor bottleneck,MEDIUM,2026-06-01,2026-10-01,,Implementing agency,OPEN,Schedule impact
+DEMO-0013,ENVIRONMENT_CLEARANCE,Synthetic environment clearance bottleneck,HIGH,2026-04-01,2026-10-01,,Implementing agency,OPEN,Schedule impact
+DEMO-0013,LABOUR,Synthetic labour bottleneck,HIGH,2026-05-01,2026-07-01,2026-08-01,Implementing agency,RESOLVED,Schedule impact
+DEMO-0013,PROCUREMENT,Synthetic procurement bottleneck,HIGH,2026-04-01,2026-11-01,2026-07-01,Implementing agency,RESOLVED,Schedule impact
+DEMO-0014,DESIGN,Synthetic design bottleneck,MEDIUM,2025-12-01,2026-06-01,,Implementing agency,OPEN,Schedule impact
+DEMO-0014,WEATHER,Synthetic weather bottleneck,MEDIUM,2026-05-01,2026-07-01,,Implementing agency,OPEN,Schedule impact
+DEMO-0015,ENVIRONMENT_CLEARANCE,Synthetic environment clearance bottleneck,MEDIUM,2026-03-01,2026-07-01,,Implementing agency,OPEN,Schedule impact
+DEMO-0015,DESIGN,Synthetic design bottleneck,HIGH,2026-02-01,2026-09-01,2026-05-01,Implementing agency,RESOLVED,Schedule impact
+DEMO-0015,DESIGN,Synthetic design bottleneck,MEDIUM,2025-11-01,2026-05-01,,Implementing agency,OPEN,Schedule impact
+DEMO-0017,LABOUR,Synthetic labour bottleneck,HIGH,2025-10-01,2025-12-01,,Implementing agency,OPEN,Schedule impact
+DEMO-0017,LABOUR,Synthetic labour bottleneck,MEDIUM,2026-07-01,2027-03-01,,Implementing agency,OPEN,Schedule impact
+DEMO-0018,FUNDING,Synthetic funding bottleneck,MEDIUM,2026-04-01,2026-09-01,,Implementing agency,OPEN,Schedule impact
+DEMO-0018,APPROVAL,Synthetic approval bottleneck,HIGH,2026-02-01,2026-06-01,,Implementing agency,OPEN,Schedule impact
+DEMO-0020,ENVIRONMENT_CLEARANCE,Synthetic environment clearance bottleneck,MEDIUM,2026-06-01,2026-10-01,2026-09-01,Implementing agency,RESOLVED,Schedule impact
+DEMO-0021,LEGAL,Synthetic legal bottleneck,MEDIUM,2026-05-01,2026-10-01,2026-08-01,Implementing agency,RESOLVED,Schedule impact
+DEMO-0022,APPROVAL,Synthetic approval bottleneck,HIGH,2025-09-01,2026-05-01,,Implementing agency,OPEN,Schedule impact
+DEMO-0022,MATERIAL,Synthetic material bottleneck,HIGH,2026-07-01,2026-11-01,,Implementing agency,OPEN,Schedule impact
+DEMO-0023,MATERIAL,Synthetic material bottleneck,MEDIUM,2026-04-01,2026-11-01,,Implementing agency,OPEN,Schedule impact
+DEMO-0024,UTILITY_SHIFTING,Synthetic utility shifting bottleneck,MEDIUM,2025-09-01,2026-04-01,2025-12-01,Implementing agency,RESOLVED,Schedule impact
+DEMO-0025,LABOUR,Synthetic labour bottleneck,HIGH,2025-11-01,2026-07-01,,Implementing agency,OPEN,Schedule impact
+DEMO-0026,CONTRACTOR,Synthetic contractor bottleneck,MEDIUM,2026-03-01,2026-06-01,,Implementing agency,OPEN,Schedule impact
+DEMO-0026,ENVIRONMENT_CLEARANCE,Synthetic environment clearance bottleneck,MEDIUM,2026-03-01,2026-11-01,,Implementing agency,OPEN,Schedule impact
+DEMO-0027,UTILITY_SHIFTING,Synthetic utility shifting bottleneck,HIGH,2026-08-01,2026-12-01,,Implementing agency,OPEN,Schedule impact
+DEMO-0027,WEATHER,Synthetic weather bottleneck,HIGH,2026-04-01,2026-10-01,,Implementing agency,OPEN,Schedule impact
+DEMO-0027,LABOUR,Synthetic labour bottleneck,HIGH,2025-12-01,2026-08-01,,Implementing agency,OPEN,Schedule impact
+DEMO-0027,DESIGN,Synthetic design bottleneck,MEDIUM,2025-12-01,2026-04-01,,Implementing agency,OPEN,Schedule impact
+DEMO-0028,PROCUREMENT,Synthetic procurement bottleneck,MEDIUM,2026-03-01,2026-10-01,,Implementing agency,OPEN,Schedule impact
+DEMO-0028,LABOUR,Synthetic labour bottleneck,HIGH,2025-10-01,2025-12-01,2026-01-01,Implementing agency,RESOLVED,Schedule impact
+DEMO-0030,MATERIAL,Synthetic material bottleneck,HIGH,2026-08-01,2026-12-01,,Implementing agency,OPEN,Schedule impact
+DEMO-0031,PROCUREMENT,Synthetic procurement bottleneck,CRITICAL,2025-11-01,2026-02-01,2026-02-01,Implementing agency,RESOLVED,Schedule impact
+DEMO-0031,UTILITY_SHIFTING,Synthetic utility shifting bottleneck,CRITICAL,2025-11-01,2026-03-01,,Implementing agency,OPEN,Schedule impact
+DEMO-0031,APPROVAL,Synthetic approval bottleneck,CRITICAL,2025-11-01,2026-05-01,,Implementing agency,OPEN,Schedule impact
+DEMO-0031,LABOUR,Synthetic labour bottleneck,CRITICAL,2025-12-01,2026-04-01,2026-03-01,Implementing agency,RESOLVED,Schedule impact
+DEMO-0032,PROCUREMENT,Synthetic procurement bottleneck,MEDIUM,2026-08-01,2027-04-01,,Implementing agency,OPEN,Schedule impact
+DEMO-0032,LEGAL,Synthetic legal bottleneck,MEDIUM,2025-11-01,2026-01-01,,Implementing agency,OPEN,Schedule impact
+DEMO-0032,LEGAL,Synthetic legal bottleneck,MEDIUM,2026-06-01,2026-08-01,,Implementing agency,OPEN,Schedule impact
+DEMO-0032,LABOUR,Synthetic labour bottleneck,CRITICAL,2026-01-01,2026-05-01,,Implementing agency,OPEN,Schedule impact
+DEMO-0033,UTILITY_SHIFTING,Synthetic utility shifting bottleneck,MEDIUM,2026-06-01,2026-10-01,,Implementing agency,OPEN,Schedule impact
+DEMO-0033,MATERIAL,Synthetic material bottleneck,HIGH,2025-10-01,2026-01-01,2026-01-01,Implementing agency,RESOLVED,Schedule impact
+DEMO-0033,LEGAL,Synthetic legal bottleneck,MEDIUM,2026-04-01,2026-08-01,2026-07-01,Implementing agency,RESOLVED,Schedule impact
+DEMO-0033,LEGAL,Synthetic legal bottleneck,MEDIUM,2026-08-01,2027-02-01,,Implementing agency,OPEN,Schedule impact
+DEMO-0034,FUNDING,Synthetic funding bottleneck,HIGH,2026-08-01,2027-01-01,,Implementing agency,OPEN,Schedule impact
+DEMO-0035,WEATHER,Synthetic weather bottleneck,MEDIUM,2026-02-01,2026-07-01,,Implementing agency,OPEN,Schedule impact
+DEMO-0036,CONTRACTOR,Synthetic contractor bottleneck,MEDIUM,2026-07-01,2027-01-01,,Implementing agency,OPEN,Schedule impact
+DEMO-0036,ENVIRONMENT_CLEARANCE,Synthetic environment clearance bottleneck,HIGH,2026-05-01,2026-08-01,,Implementing agency,OPEN,Schedule impact
+DEMO-0037,PROCUREMENT,Synthetic procurement bottleneck,MEDIUM,2025-11-01,2026-05-01,2026-02-01,Implementing agency,RESOLVED,Schedule impact
+DEMO-0038,MATERIAL,Synthetic material bottleneck,MEDIUM,2026-05-01,2026-07-01,2026-08-01,Implementing agency,RESOLVED,Schedule impact
+DEMO-0040,LAND,Synthetic land bottleneck,HIGH,2026-07-01,2027-03-01,2026-10-01,Implementing agency,RESOLVED,Schedule impact
+DEMO-0040,LEGAL,Synthetic legal bottleneck,HIGH,2026-05-01,2026-09-01,,Implementing agency,OPEN,Schedule impact
+DEMO-0040,UTILITY_SHIFTING,Synthetic utility shifting bottleneck,MEDIUM,2025-12-01,2026-06-01,2026-03-01,Implementing agency,RESOLVED,Schedule impact
+DEMO-0041,PROCUREMENT,Synthetic procurement bottleneck,MEDIUM,2026-01-01,2026-06-01,2026-04-01,Implementing agency,RESOLVED,Schedule impact
+DEMO-0041,FUNDING,Synthetic funding bottleneck,HIGH,2026-02-01,2026-05-01,2026-05-01,Implementing agency,RESOLVED,Schedule impact
+DEMO-0041,UTILITY_SHIFTING,Synthetic utility shifting bottleneck,HIGH,2025-09-01,2026-04-01,,Implementing agency,OPEN,Schedule impact
+DEMO-0042,ENVIRONMENT_CLEARANCE,Synthetic environment clearance bottleneck,HIGH,2025-12-01,2026-07-01,,Implementing agency,OPEN,Schedule impact
+DEMO-0043,ENVIRONMENT_CLEARANCE,Synthetic environment clearance bottleneck,CRITICAL,2026-01-01,2026-04-01,,Implementing agency,OPEN,Schedule impact
+DEMO-0043,LEGAL,Synthetic legal bottleneck,MEDIUM,2026-01-01,2026-09-01,,Implementing agency,OPEN,Schedule impact
+DEMO-0043,MATERIAL,Synthetic material bottleneck,HIGH,2026-07-01,2027-02-01,2026-10-01,Implementing agency,RESOLVED,Schedule impact
+DEMO-0043,UTILITY_SHIFTING,Synthetic utility shifting bottleneck,CRITICAL,2026-06-01,2026-11-01,,Implementing agency,OPEN,Schedule impact
+DEMO-0046,APPROVAL,Synthetic approval bottleneck,MEDIUM,2026-07-01,2026-12-01,,Implementing agency,OPEN,Schedule impact
+DEMO-0047,WEATHER,Synthetic weather bottleneck,HIGH,2026-04-01,2026-10-01,,Implementing agency,OPEN,Schedule impact
+DEMO-0047,APPROVAL,Synthetic approval bottleneck,MEDIUM,2026-01-01,2026-07-01,,Implementing agency,OPEN,Schedule impact
+DEMO-0047,DESIGN,Synthetic design bottleneck,HIGH,2026-02-01,2026-08-01,,Implementing agency,OPEN,Schedule impact
+DEMO-0048,LAND,Synthetic land bottleneck,HIGH,2026-03-01,2026-07-01,,Implementing agency,OPEN,Schedule impact
+DEMO-0048,CONTRACTOR,Synthetic contractor bottleneck,MEDIUM,2026-07-01,2027-02-01,,Implementing agency,OPEN,Schedule impact
+DEMO-0048,CONTRACTOR,Synthetic contractor bottleneck,HIGH,2026-05-01,2026-12-01,2026-08-01,Implementing agency,RESOLVED,Schedule impact
+DEMO-0049,WEATHER,Synthetic weather bottleneck,HIGH,2026-08-01,2026-11-01,,Implementing agency,OPEN,Schedule impact
+DEMO-0049,DESIGN,Synthetic design bottleneck,HIGH,2026-04-01,2026-11-01,,Implementing agency,OPEN,Schedule impact
+DEMO-0051,ENVIRONMENT_CLEARANCE,Synthetic environment clearance bottleneck,HIGH,2026-07-01,2027-01-01,,Implementing agency,OPEN,Schedule impact
+DEMO-0052,CONTRACTOR,Synthetic contractor bottleneck,CRITICAL,2025-11-01,2026-03-01,,Implementing agency,OPEN,Schedule impact
+DEMO-0052,LEGAL,Synthetic legal bottleneck,MEDIUM,2026-02-01,2026-04-01,,Implementing agency,OPEN,Schedule impact
+DEMO-0052,PROCUREMENT,Synthetic procurement bottleneck,HIGH,2025-09-01,2026-01-01,,Implementing agency,OPEN,Schedule impact
+DEMO-0053,APPROVAL,Synthetic approval bottleneck,HIGH,2026-08-01,2026-10-01,,Implementing agency,OPEN,Schedule impact
+DEMO-0054,LEGAL,Synthetic legal bottleneck,HIGH,2025-09-01,2026-05-01,2025-12-01,Implementing agency,RESOLVED,Schedule impact
+DEMO-0056,FUNDING,Synthetic funding bottleneck,HIGH,2026-05-01,2027-01-01,2026-08-01,Implementing agency,RESOLVED,Schedule impact
+DEMO-0056,ENVIRONMENT_CLEARANCE,Synthetic environment clearance bottleneck,HIGH,2026-08-01,2026-11-01,,Implementing agency,OPEN,Schedule impact
+DEMO-0056,ENVIRONMENT_CLEARANCE,Synthetic environment clearance bottleneck,HIGH,2025-10-01,2026-02-01,,Implementing agency,OPEN,Schedule impact
+DEMO-0056,APPROVAL,Synthetic approval bottleneck,HIGH,2026-08-01,2027-03-01,,Implementing agency,OPEN,Schedule impact
+DEMO-0058,UTILITY_SHIFTING,Synthetic utility shifting bottleneck,HIGH,2026-08-01,2027-02-01,2026-11-01,Implementing agency,RESOLVED,Schedule impact
+DEMO-0059,PROCUREMENT,Synthetic procurement bottleneck,HIGH,2025-12-01,2026-04-01,,Implementing agency,OPEN,Schedule impact
