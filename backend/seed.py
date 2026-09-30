@@ -30,9 +30,16 @@ async def main(args):
             pw = os.getenv("ADMIN_PASSWORD") or getpass.getpass("Admin password (min 10 chars): ")
             if len(pw) < 10:
                 raise SystemExit("password must be at least 10 characters")
-            if not (await db.execute(select(E.User).where(E.User.email == args.admin_email.lower()))).scalars().first():
-                db.add(E.User(name="Administrator", email=args.admin_email.lower(), password_hash=security.get_password_hash(pw), role=E.Role.SUPER_ADMIN))
-                print("created SUPER_ADMIN", args.admin_email)
+            admin_email = args.admin_email.lower()
+            admin = (await db.execute(select(E.User).where(E.User.email == admin_email))).scalars().first()
+            if admin is None:
+                db.add(E.User(name="Administrator", email=admin_email, password_hash=security.get_password_hash(pw), role=E.Role.SUPER_ADMIN))
+                print("created SUPER_ADMIN", admin_email)
+            else:
+                admin.password_hash = security.get_password_hash(pw)
+                admin.role = E.Role.SUPER_ADMIN
+                admin.is_active = True
+                print("updated SUPER_ADMIN", admin_email)
         if args.demo:
             rd = lambda n: (SAMPLE / n).read_text(encoding="utf-8")  # noqa: E731
             projects, r1 = loader.ingest_projects(rd("projects.csv"), DataOrigin.SYNTHETIC_DEMO)
